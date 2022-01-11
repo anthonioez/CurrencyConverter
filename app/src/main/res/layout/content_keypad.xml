@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_weight="1"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonPad7"
+            style="@style/keypadStyle"
+            android:text="7"/>
+
+        <Button
+            android:id="@+id/buttonPad8"
+            style="@style/keypadStyle"
+            android:text="8"/>
+
+        <Button
+            android:id="@+id/buttonPad9"
+            style="@style/keypadStyle"
+            android:text="9"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonPad4"
+            style="@style/keypadStyle"
+            android:text="4"/>
+
+        <Button
+            android:id="@+id/buttonPad5"
+            style="@style/keypadStyle"
+            android:text="5"/>
+
+        <Button
+            android:id="@+id/buttonPad6"
+            style="@style/keypadStyle"
+            android:text="6"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonPad1"
+            style="@style/keypadStyle"
+            android:text="1"/>
+
+        <Button
+            android:id="@+id/buttonPad2"
+            style="@style/keypadStyle"
+            android:text="2"/>
+
+        <Button
+            android:id="@+id/buttonPad3"
+            style="@style/keypadStyle"
+            android:text="3"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonPadD"
+            style="@style/keypadStyle"
+            android:text="."/>
+
+        <Button
+            android:id="@+id/buttonPad0"
+            style="@style/keypadStyle"
+            android:text="0"/>
+
+        <LinearLayout
+            style="@style/keypadStyle">
+
+            <ImageButton
+                android:id="@+id/buttonPadB"
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:background="@color/transparent"
+                android:scaleType="centerInside"
+                android:src="@drawable/backspace"/>
+
+        </LinearLayout>
+        >
+
+    </LinearLayout>
+</LinearLayout>

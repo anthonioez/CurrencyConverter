@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="df.agecalculator.android.ActivityMain">
+
+    <item android:id="@+id/action_favorites"
+          android:orderInCategory="100"
+          android:title="Favorites"
+          android:icon="@drawable/favorite_white"
+          app:showAsAction="always"/>
+
+    <item android:id="@+id/action_share"
+          android:orderInCategory="100"
+          android:title="Share"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/action_contact"
+          android:orderInCategory="101"
+          android:title="Contact Us"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/action_rate"
+          android:orderInCategory="102"
+          android:title="Rate"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/action_more"
+          android:orderInCategory="103"
+          android:title="Other apps"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/action_pay"
+          android:orderInCategory="104"
+          android:title="Pay to remove ads"
+          app:showAsAction="never"/>
+</menu>
